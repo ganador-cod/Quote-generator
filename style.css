@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* title */
+body{
+    background-image: url(imgs/matthew-cabret-V1DlMgZ2UEA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.title{
+    width: 20%;
+    margin: 3em auto;
+    border: 1px solid white;
+    background-color: rgb(46, 19, 19);
+    padding: .4em;
+    color: white;
+    text-align: center;
+}
+.container{
+    background: #631111;
+    margin: 1em auto;
+    width: 35%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 14rem;
+    border-radius: 8px;
+    box-shadow: 2px 4px 9px #9b665c;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    height: 9rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    margin: 1em auto;
+    background: #fff;
+}
+button{
+    padding: .8em;
+    background: rgb(5, 145, 206);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: 2em;
+}
+h1{
+    text-transform: capitalize;
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+p{
+    text-align: center;
+    color: #100f0f;
+    font-size: 1rem;
+    font-family: 'Alfa Slab One', cursive;
+    /* font-weight: bold; */
+}
